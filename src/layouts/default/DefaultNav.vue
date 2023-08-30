@@ -23,6 +23,9 @@
           <li class="nav-item">
             <router-link to="/about" class="nav-link" @click.native="collapseNavbar">About</router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/sidebar" class="nav-link" @click.native="collapseNavbar">Sidebar</router-link>
+          </li>
         </ul>
       </div>
     </div>
